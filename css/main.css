@@ -1,0 +1,410 @@
+@font-face {
+    font-family: Comfortaa Thin;
+    src: url(../fonts/ComfortaaRegular.ttf);
+}
+
+@font-face {
+    font-family: Lobster Regular;
+    src: url(../fonts/lobster_regular.ttf);
+}
+
+@font-face {
+    font-family: Menuet;
+    src: url(../fonts/menuet_script.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Comfortaa Thin;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 1172px;
+    margin: 0 auto;
+}
+
+section {
+    width: 1172px;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+footer {
+    width: 1172px;
+    height: 100px;
+    margin: 0 auto 50px auto;
+    position: relative;
+    clear: both;
+    border-top: 10px solid #dddddd;
+    border-radius: 0 0 20px 20px;
+    box-sizing: border-box;
+    background-color: #bdbdbd;
+}
+
+
+.tool-bar {
+    text-align: center;
+    height: 80px;
+}
+
+.tool-bar a {
+    margin: 40px 15px;
+    color: #939393;;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.tool-bar img {
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
+}
+
+
+.main-logo {
+    width: 150px;
+    height: 60px;
+    float: left;
+}
+
+.menu {
+    width: inherit;
+    height: 60px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 60px;
+    left: -14px;
+    position: relative;
+}
+
+.menu-button-text {
+    float: left;
+    width: calc(100% - 492px);
+    height: inherit;
+    text-align: center;
+}
+
+
+.menu-button-text > a {
+    margin: 28px 5% 0;
+    display: inline-block;
+    color: #000;
+    font-size: 24px;
+}
+
+.call-back {
+    width: 250px;
+    height: 41px;
+    float: left;
+    text-align: center;
+    background-color: #000;
+    margin-top: 25px;
+}
+ .call-back a {
+     color: #fff;
+     display: block;
+     margin-top: 3px;
+     font-size: 24px;
+ }
+
+.menu-button-img {
+    background-color: #000;
+    width: 41px;
+    height: 41px;
+    float: left;
+    margin: 25px 0 0 5px;
+}
+
+.menu-button-img > a > img {
+    margin: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.bookmarks {
+    width: inherit;
+    height: 35px;
+    margin-top: 40px;
+}
+
+.bookmark {
+    width: 125px;
+    height: 0;
+    border-right: 24px solid transparent;
+    border-left: 24px solid transparent;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.bookmark p {
+    margin-top: 5px;
+}
+
+.lime {
+    border-bottom: 35px solid #d7d862;
+    margin-left: 120px;
+    z-index: 6;
+}
+
+.lemon {
+    border-bottom: 35px solid #fcef56;
+    left: -20px;
+    z-index: 5;
+}
+
+.mandarin {
+    border-bottom: 35px solid #fcc456;
+    left: -40px;
+    z-index: 4;
+}
+
+.orange {
+    border-bottom: 35px solid #f9744c;
+    left: -60px;
+    z-index: 3;
+}
+.grapefruit {
+    border-bottom: 35px solid #d45966;
+    left: -80px;
+    z-index: 2;
+}
+
+.exotic {
+    border-bottom: 35px solid #933c4e;
+    left: -100px;
+    z-index: 1;
+}
+
+.line {
+    float: left;
+    height: 35px;
+    width: 1px;
+    background-color: #fff;
+    transform: skewX(214deg);
+    position: relative;
+    z-index: 6;
+    left: -12px;
+}
+
+.shift-l-32 {
+    left: -32px;
+}
+
+.shift-l-52 {
+    left: -52px;
+}
+
+.shift-l-72 {
+    left: -72px;
+}
+
+.shift-l-92 {
+    left: -92px;
+}
+
+.maim-img {
+    width: inherit;
+    height: 879px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.greeting {
+    height: 650px;
+}
+
+.greeting-text {
+    width: 500px;
+    position: relative;
+    float: left;
+    margin: 140px 0 0 150px;
+}
+
+.greeting-text > h1 {
+    font-family: Lobster Regular;
+    font-size: 38px;
+}
+
+.greeting-text > p {
+    font-family: Menuet;
+    font-size: 34px;
+}
+
+.greeting-text h4 {
+    font-family: Lobster Regular;
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+.line-h {
+    width: 70px;
+    height: 1px;
+    background-color: #000;
+    float: left;
+    margin: 10px 5px 10px 5px;
+}
+.signature-cont {
+    margin: 25px 25px;
+}
+.signature img {
+    left: -70px;
+    position: relative;
+}
+
+.gourmet-cont {
+    position: absolute;
+    left: 540px;
+}
+
+.gourmet-cont img {
+    width: 650px;
+    height: 650px;
+}
+
+
+
+.top-sales {
+    height: 800px;
+    background-image: url(../img/blocks/back.jpg);
+    background-size: cover;
+    border: 0;
+    padding: 1px;
+}
+
+.tops-text-h {
+    margin: 50px 0 0 40px;
+    font-size: 54px;
+}
+
+.tops-cont {
+    width: 1092px;
+    height: 520px;
+    margin: 50px 0 0 40px;
+}
+
+.tops-cont .tops:last-child {
+    margin-right: 0;
+}
+
+
+.tops {
+    width: 350px;
+    height: inherit;
+    background-color: #fff;
+    float: left;
+    margin-right: 21px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.tops > * {
+    margin: 15px 0 0 20px;
+    font-size: 18px;
+}
+
+.name-text {
+    width: inherit;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.name-text p {
+    float: left;
+    color: #000;
+    font-size: 26px;
+    margin-left:  15px;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.tops-img {
+    margin-top: 10px;
+}
+
+.tops-img img {
+    width: 310px;
+}
+
+.service-cont {
+    width: 310px;
+    height: 30px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.service-cont img {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.service-r {
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+
+.service-r > img{
+    margin-left: 5px;
+}
+
+.social {
+    height: 250px;
+}
+
+.social > *{
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.social-cont {
+    text-align: center;
+}
+
+.social-cont > a {
+    margin-right: 5px;
+}
+
+.inform {
+    width: 480px;
+    margin: 35px auto;
+    position: relative;
+}
+
+.inform > p {
+    float: left;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.shadow {
+    width: 1171px;
+    height: 1149px;
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
